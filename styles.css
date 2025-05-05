@@ -1,0 +1,54 @@
+/* Reset margins & set background */
+body {
+    background-color: #d5e1ef;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main container */
+  .qr-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  /* QR Image styling */
+  .qr-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Headline */
+  h1 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+  }
+  
+  /* Description text */
+  p {
+    font-size: 14px;
+    color: #7b8794;
+    margin: 0 0 10px;
+  }
+  
+  /* Attribution text */
+  .attribution {
+    font-size: 10px;
+    color: #7b8794;
+    margin-top: 15px;
+  }
+  
+  /* Attribution links */
+  .attribution a {
+    color: #3e52a3;
+    text-decoration: none;
+  }
+  
+  
