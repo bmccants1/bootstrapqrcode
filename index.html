@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QR Code Component (Bootstrap Version)</title>
+  <title>QR Code Component (Bootstrap)</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -15,25 +15,26 @@
       background: white;
       border-radius: 1rem;
       padding: 1rem;
-      width: 300px;
+      max-width: 320px;
       text-align: center;
       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     }
-    .qr-img {
+    .qr-image {
       width: 100%;
       border-radius: 0.75rem;
-      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body class="d-flex justify-content-center align-items-center vh-100">
 
-  <div class="qr-card shadow">
-    <img src="images/threecrows.jpeg" alt="QR Code" class="qr-img">
-    <h5 class="fw-bold">Improve your front-end skills by building projects</h5>
+  <div class="qr-card">
+    <img src="images/threecrows.jpeg" alt="QR Code" class="qr-image mb-3">
+    <h1 class="h5 fw-bold">Improve your front-end skills by building projects</h1>
     <p class="text-muted">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    <p class="attribution small mt-3">
-      Challenge by <a href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>. 
+    <!-- ✅ Added Bootstrap button -->
+    <a href="https://www.frontendmentor.io" target="_blank" class="btn btn-primary mt-3">Visit Frontend Mentor</a>
+    <p class="attribution small text-muted mt-3">
+      Challenge by <a href="https://www.frontendmentor.io" class="text-decoration-none">Frontend Mentor</a>. 
       Coded by <a href="#">Brenda McCants</a>.
     </p>
   </div>
@@ -42,3 +43,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
